@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "e7997570-9bae-45e4-b6e3-2bc699f2ecca",
+		"name": "APItest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/Businesscard/getById?ICD=0196&enterpriseNumber=6410973229",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/getById?ICD=0196&enterpriseNumber=6410973229",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"getById"
+					],
+					"query": [
+						{
+							"key": "ICD",
+							"value": "0196"
+						},
+						{
+							"key": "enterpriseNumber",
+							"value": "6410973229"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Businesscard/getById?ICD=0196&enterpriseNumber=6410973229",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/getById?ICD=9908&enterpriseNumber=989629182",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"getById"
+					],
+					"query": [
+						{
+							"key": "ICD",
+							"value": "9908"
+						},
+						{
+							"key": "enterpriseNumber",
+							"value": "989629182"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Businesscard/searchByName?name=car",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/searchByName?name=car",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"searchByName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "car"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Businesscard/searchByName?name=The",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/searchByName?name=The",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"searchByName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "The"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Businesscard/getByName?name=MOLDE VANN OG AVLØP KF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/getByName?name=ARE HAUGEN AS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"getByName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "ARE HAUGEN AS"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Businesscard/getByName?name=ARE HAUGEN AS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Businesscard/getByName?name=ARE HAUGEN AS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Businesscard",
+						"getByName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "ARE HAUGEN AS"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
