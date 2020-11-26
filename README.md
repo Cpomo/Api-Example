@@ -1,4 +1,4 @@
-# Lyon-Example
+# API-Example
 To run the application first download a zipped file of the project.
 Then navigate to the unzipped folder in command line or terminal and execute the following command:
 
